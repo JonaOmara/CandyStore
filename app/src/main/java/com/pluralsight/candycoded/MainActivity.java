@@ -82,9 +82,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    // ***
-    // TODO - Task 1 - Show Store Information Activity
-    // ***
+
 	public boolean onOptionsItemSelected(MenuItem item) {
         Intent infoIntent = new Intent(this,InfoActivity.class);
         startActivity(infoIntent);
