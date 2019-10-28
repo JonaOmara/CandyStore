@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         SQLiteDatabase db = candyDbHelper.getWritableDatabase();
         Cursor cursor = db.rawQuery("SELECT * FROM candy", null);
 
